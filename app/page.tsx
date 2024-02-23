@@ -1,3 +1,9 @@
+import {DisplayPane} from "./components/DisplayPane"
+
 export default function Page() {
-    return <h1>Hello, Next.js!</h1>
+    return (
+    <div>
+        <DisplayPane/>
+    </div>
+    )
 }

@@ -1,3 +1,11 @@
+import type {Metadata} from 'next'
+
+
+export const metadata: Metadata = {
+    title: "BTC-Transac-Exp",
+    description: "Bitcoin Incoming Transaction Explorer",
+}
+
 export default function RootLayout({
                                        children,
                                    }: {
@@ -5,7 +13,11 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-        <body>{children}</body>
+        <body>
+        <section>
+            {children}
+        </section>
+        </body>
         </html>
     )
 }
