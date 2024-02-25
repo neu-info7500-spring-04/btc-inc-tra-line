@@ -1,10 +1,9 @@
 # btc-inc-tra-line
+
 BItcoin Incoming Transactions Line Graph Explorer
 
+# Setup
 
-## How to spin it up
+Just run `npm install`
 
-**Install Dependencies**
-`npm install express d3 next@latest react@latest react-dom@latest`
-
-****
+And then `npm build && npm start`

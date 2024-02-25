@@ -1,12 +1,16 @@
-import {DisplayPane} from "./components/DisplayPane"
-import {IncomingTransactions} from "./components/IncomingTransactions"
+import TransactionInfo from "./components/TransactionInfo"
+import IncomingTransactions from "./components/IncomingTransactions"
 
 export default function Page() {
     return (
 
         <div>
-            <DisplayPane/>
-            <IncomingTransactions/>
+            <div>
+                <TransactionInfo/>
+            </div>
+            <div>
+                <IncomingTransactions/>
+            </div>
         </div>
     )
 }
